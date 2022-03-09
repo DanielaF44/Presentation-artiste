@@ -5,6 +5,31 @@
     font-family: Oswald, Verdana, Geneva, Tahoma, sans-serif;
 }
 
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1% 1% 1% 2%;
+}
+
+h1{
+    font-size: 3rem;
+    padding: 3%;
+    text-align: center;
+    font-weight: bold;
+    margin: 15% 0 15% 0;
+}
+
+h2, h3{
+    padding: 2%;
+
+}
+
+.boutton{
+    text-decoration: none;
+    padding: 0.5%; 
+    background-color: grey;
+    border-radius: 10%;
+    font-size: 1.2em;
+}
 
 /* ======================Navbar==============================*/
 
@@ -18,8 +43,44 @@
 /*=======================Main===============================*/
 
 main{
+    position: relative;
     min-height: 100vh;
 }
+
+section{
+    margin: 30% 0 30% 0;
+}
+
+/*====Accueil====*/
+figure{
+    margin: 15% 0 15% 0;
+}
+
+.image-accueil, .membres{
+    width: 100%;
+}
+
+.h1-accueil{
+    position: absolute;
+    top: -4%;
+}
+
+.section-accueil{
+    margin-top: 15%;
+}
+
+.div-membres{
+    display: grid;
+    grid-template-areas: "h2" "membre";
+    
+    
+}
+
+.section-membres{
+    background-color: brown;
+}
+
+
 
 /*=====================Footer================================*/
 footer{
@@ -52,5 +113,25 @@ footer > p{
         margin-right: 50%;
     }
 
+    figure{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .div-membres{
+        grid-template-areas: "h2 h2" "membre membre";        
+    }
+    section{
+        margin: 10% 0 10% 0;
+    }
+
+    .h1-accueil{
+        position: absolute;
+        top: -10%;
+    }
+
+    h1{
+        font-size: 6rem;
+    }
 }
 
