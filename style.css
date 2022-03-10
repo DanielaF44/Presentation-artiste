@@ -7,7 +7,8 @@
 
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 1% 1% 1% 2%;
+    padding: 2% 1% 1% 2%;
+    text-align: justify;
 }
 
 h1{
@@ -15,12 +16,16 @@ h1{
     padding: 3%;
     text-align: center;
     font-weight: bold;
-    margin: 15% 0 15% 0;
-}
+    margin: 8% 0 8% 0;
+ }
 
 h2, h3{
     padding: 2%;
 
+}
+
+h2{
+    text-align: center;
 }
 
 .boutton{
@@ -92,6 +97,22 @@ figure{
     background-color: rgba(171,42,53,90%);
 }
 
+/*=======Histoire========*/
+
+article{
+    margin-bottom: 5em;
+}
+
+.thevoice-img{
+    width: 56%;
+    float: left;
+    margin-right: 3%;
+}
+
+.img-histoire{
+    width: 100%;
+}
+
 
 
 /*=====================Footer================================*/
@@ -112,6 +133,7 @@ footer > ul{
 }
 footer > p{
     padding: 2%;
+    text-align: center;
 }
 
 /*=======================Media Queries======================*/
@@ -139,11 +161,18 @@ footer > p{
 
     .h1-accueil{
         position: absolute;
-        top: -10%;
+        top: -7%;
     }
 
     h1{
         font-size: 6rem;
     }
+
+    .img-histoire{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
 }
 
