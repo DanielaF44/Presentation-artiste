@@ -28,6 +28,7 @@ h2{
     text-align: center;
 }
 
+
 .boutton{
     text-decoration: none;
     padding: 0.5%; 
@@ -113,7 +114,33 @@ article{
     width: 100%;
 }
 
+/*=======Chansons========*/
+.chansons-link{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
 
+.chansons-link:hover{
+    color: #ab2a35;
+    font-size: larger;
+    
+}
+
+.autres-chansons{
+    background-color: lightgray;
+}
+
+.autres-chansons-h3{
+    text-align: center;
+}
+
+.dernieres-sorties{
+    background-color: #ab2a35;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+}
 
 /*=====================Footer================================*/
 footer{
@@ -173,6 +200,24 @@ footer > p{
         margin-left: 10%;
         margin-right: 10%;
     }
+
+
     
 }
+
+@media screen and (min-width : 361px){
+    iframe{
+        padding-left: 4%;
+        padding-right: 4%;
+        margin: 2%;
+    }
+}
+
+@media screen and (min-width : 361px){
+    iframe{
+        width: 560px;
+        height: 315px;
+    }
+}
+
 
